@@ -1,0 +1,65 @@
+#home {
+  padding: 164px 132px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px;
+}
+#home section img {
+  margin-bottom: 64px;
+}
+#home section h1 {
+  font-size: 36px;
+  color: #13131a;
+  margin-bottom: 32px;
+}
+#home section p {
+  font-size: 18px;
+  color: #737380;
+  margin-bottom: 80px;
+}
+#home section span {
+  color: #41414d;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+#home section span svg {
+  color: #e02041;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+#home section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+}
+#home section form input,
+#home section form button {
+  margin-bottom: 8px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1.5px solid #dcdce6;
+  border-radius: 8px;
+}
+#home section form input::placeholder {
+  color: #a8a8b3;
+}
+
+#home section form div {
+  display: grid;
+  grid-template-columns: 79% 20%;
+  grid-gap: 1%;
+}
+
+#home section form button {
+  background-color: #e02041;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#home section form button:hover {
+  background-color: #d02041;
+}
