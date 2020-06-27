@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 import Logo from "../../assets/Logo.png";
-import {FiArrowLeft} from 'react-icons/fi'
+import { FiArrowLeft } from "react-icons/fi";
+//testando commit
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +14,9 @@ const Home: React.FC = () => {
           Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem
           os casos da sua ONG
         </p>
-        <span><FiArrowLeft/> Voltar para logon</span>
+        <span>
+          <FiArrowLeft /> Voltar para logon
+        </span>
       </section>
 
       <section>
